@@ -1,0 +1,56 @@
+
+/* Styles for desktop view */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Add this line */
+    margin: 0 -10px; /* Add this line */
+}
+
+.section {
+    flex-basis: 33.33%;
+    padding: 20px;
+    float: left;
+    position: relative;
+    box-sizing: border-box; /* Add this line */
+    margin-bottom: 20px; /* Add this line */
+    background-color: lightblue; /* Add this line */
+    border: 10px solid white; /* Add this line */
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px; /* Add this line */
+    background-color: lightgreen; /* Add this line */
+    border: 1px solid black; /* Add this line */
+    color: black; /* Add this line */
+    font-size: 125%; /* Add this line */
+}
+
+/* Styles for tablet view */
+@media (max-width: 991px) {
+    .section {
+        flex-basis: 50%;
+    }
+    
+    .section:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
+
+/* Styles for mobile view */
+@media (max-width: 767px) {
+    .section {
+        flex-basis: 100%;
+        float: none;
+    }
+}
+
+/* Additional style for center alignment */
+.heading {
+    text-align: center;
+    font-size: 175%; /* Add this line */
+}
+
