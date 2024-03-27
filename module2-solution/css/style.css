@@ -26,7 +26,7 @@ body{
     box-sizing: border-box; /* Add this line */
     margin-bottom: 20px; /* Add this line */
     background-color: gray; /* Add this line */
-    border: 10px solid white; /* Add this line */
+    border: 25px solid white; /* Add this line */
 }
 
 .section-title {
@@ -35,10 +35,10 @@ body{
     right: 0;
     margin: 0px; /* Add this line */
     background-color: pink; /* Add this line */
-    border: 1px solid black; /* Add this line */
+    border: 2px solid black; /* Add this line */
     color: black; /* Add this line */
     font-size: 125%; /* Add this line */
-    padding: 1px;
+    padding: 1px 10px;
 }
 
 .background-red {
