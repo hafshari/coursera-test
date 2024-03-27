@@ -4,12 +4,6 @@ body{
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.row{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-
-  
 /* Styles for desktop view */
 .container {
     display: flex;
