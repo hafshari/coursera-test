@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
-    color: #fff;
-    font-family: 'Oxygen', sans-serif;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
   
   /** HEADER **/
@@ -53,5 +53,16 @@ body {
     clear: both;
     margin-top: -30px;
   }
+
+  .section {
+    flex-basis: 33.33%;
+    padding: 20px;
+    float: left;
+    position: relative;
+    box-sizing: border-box; /* Add this line */
+    margin-bottom: 20px; /* Add this line */    
+    background-color: lightgray; /* Add this line */
+    border: 20px solid white; /* Add this line */
+    height: 1000px;
+  }
   /* END HEADER */
-  
